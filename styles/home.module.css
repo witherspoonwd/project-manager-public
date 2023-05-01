@@ -1,0 +1,17 @@
+a.menuButton {
+  text-decoration: none;
+  color: #d46600;
+}
+
+a.menuButton:hover {
+  color: #ff7525;
+}
+
+.homeButton {
+  text-decoration: none;
+  color: rgb(109, 90, 159);
+}
+
+.homeButton:hover {
+  color: rgb(168, 141, 235);
+}

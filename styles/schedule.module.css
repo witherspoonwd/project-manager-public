@@ -1,0 +1,331 @@
+/* body {
+  background-color: #fff1c7;
+}
+
+p, li, ol, td, th {
+  font-family: Helvetica, Arial, sans-serif;
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea, label, input {
+  font-family: Helvetica, Arial, sans-serif;
+}
+*/
+
+
+.contentTable {
+  border-collapse: separate;
+  /*border-spacing: 10px 0;*/
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.contentTable td, .contentTable th {
+  text-align: left;
+  font-size: 120%;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.contentTable th, .contentTable td {
+  text-align: left;
+  padding-right: 10px;
+
+}
+
+.menuList li {
+  font-size: 225%;
+  margin: 0;
+}
+
+.menuList ul {
+  padding-left: 0; /* Remove padding */
+}
+
+.contentList li {
+  font-size: 150%;
+  margin: 0;
+}
+
+.contentList ul {
+  padding-left: 0; /* Remove padding */
+}
+
+/* table {
+  border-collapse: separate;
+
+  margin-left: 0;
+  padding-left: 0;
+}
+
+td, th {
+  text-align: left;
+  font-size: 120%;
+  font-style: normal;
+  font-weight: normal;
+}
+
+th, td {
+  text-align: left;
+  padding-right: 10px;
+
+} */
+
+/* a, a:visited {
+  color: #006bcf;
+}
+
+a:hover {
+  color: #0084ff;
+} */
+
+.normal {
+  text-decoration: none;
+  color: #006bcf;
+}
+
+.normal:hover {
+  color: #0084ff;
+}
+
+.clocked, .clocked:visited {
+  text-decoration: none;
+  color: rgb(171, 52, 255);
+}
+
+.clocked:hover {
+  color: rgb(214, 156, 255);
+}
+
+.pastDue, .pastDue:visited {
+  text-decoration: none;
+  color: red;
+}
+
+.pastDue:hover {
+  color: rgb(255, 121, 121);
+}
+
+.clockMix {
+  text-decoration: none;
+  color: #d51a80;
+}
+
+.clockMix:hover {
+  color: #d0639f;
+}
+
+.backButton, .backButton a {
+  text-decoration: none;
+  color: #005892;
+}
+
+.backButton:hover, .backButton a:hover {
+  color: #0083da;
+}
+
+/* label {
+  font-size: 120%;
+}
+*/
+
+.textarea, .input {
+  background-color: #fffaea;
+  font-size: 110%;
+} 
+
+.return a{
+  text-decoration: none;
+  color: #006bcf;
+}
+
+.return a:hover {
+  color: #4da1f0;
+}
+
+.itemComplete, .itemComplete:visited {
+  text-decoration: none;
+  color: rgb(26, 170, 26);
+}
+
+.itemComplete:hover {
+  color: rgb(35, 206, 35);
+}
+
+.nothingLeft, .updateMessage{
+  color:rgb(35, 206, 35);
+  font-size: 180%;
+}
+
+.updateMessage {
+  margin-top: 0;
+}
+
+.generalMessage {
+  color:rgb(0, 0, 0);
+  font-size: 180%;
+  margin-top: 0;
+}
+
+.scaryMessage {
+  color: red;
+  font-size: 180%;
+  margin-top: 0;
+}
+
+.scaryColor {
+  color: red;
+}
+
+.scary a {
+  color: red;
+  text-decoration: none;
+}
+
+.scary a:hover {
+  color: rgb(255, 89, 89);
+}
+
+.scaryLink {
+  cursor: pointer;
+}
+
+.warningColor {
+  color: rgb(255, 102, 0);
+}
+
+.completeMarkButton a {
+  text-decoration: none;
+  color: #5774a0;
+}
+
+.completeMarkButton a:hover {
+  color: #779ed8;
+}
+
+.botLinks {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.botLinks2 {
+  margin-top: 1%;
+}
+
+.clockContainer {
+  color:rgb(158, 29, 152);
+}
+
+.clockLink a {
+  color: rgb(107, 81, 223);
+  text-decoration: none;
+}
+
+.clockLink a:hover {
+  color: rgb(189, 174, 255);
+}
+
+.completeLabel {
+  user-select: none;
+}
+
+.fullScreenModal {
+  display: flex;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  background-color: #fff1c7;
+  width: 100%;
+  height: 100%;
+/*   justify-content: center;
+  align-items: center; */
+  z-index: 9999;
+}
+
+.deleteBox {
+/*   margin: 0; */
+/*   padding: 0; */
+  margin-left: 8px;
+}
+
+/* .deleteBox {
+  width: 100%;
+  height: 100%;
+  background-color: #fff9e6;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+} */
+
+.container {
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fade-out 4s forwards;
+}
+
+.box {
+  background-color: #fffaea;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.message {
+  margin: 0;
+  font-size: 120%;
+  user-select: none;
+}
+
+.close {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: #bbb;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  /* img {
+    width: 100%;
+    height: auto;
+  } */
+
+  .textboxes {
+    width: 96%;
+  }
+}

@@ -1,0 +1,228 @@
+.textarea, .input {
+  background-color: #fffdf8;
+}
+
+.backButton {
+  text-decoration: none;
+  color: #ff8c8c;
+}
+
+.tableItem {
+  text-decoration: none;
+}
+
+.tableItem:hover {
+  color: red;
+}
+
+.quotetweet {
+  display: inline-block;
+
+  padding-right: .5%;
+  padding-left: .5%;
+
+  border-width: thin;
+  border-style: solid;
+  border-color: grey;
+
+  background-color: #1e2332;
+  background-size: 1000px;
+  background-attachment: fixed;
+
+}
+
+.quotetweet:hover {
+  background-color: #343d58;
+}
+
+.quotetweet:hover > .qttitle {
+  color: rgb(255, 95, 95);
+}
+
+.quotetweet a {
+  text-decoration: none;
+}
+
+.qtindicator {
+  color: red;
+}
+
+.qttitle {
+  color: red;
+  margin-bottom: 1px;
+  margin-top: 5px;
+  font-size: 125%;
+}
+
+.quotetweetbody p, .quotetweetbody h1, .quotetweetbody h2, .quotetweetbody h3, .quotetweetbody pre{
+  color: white;
+}
+
+.quotetweetbody h1{
+  color: white;
+}
+
+.postdate {
+  margin-top: 1px;
+  color: red;
+}
+
+.backButton {
+  text-decoration: none;
+  color: rgb(0, 166, 255);
+}
+
+.backButton:hover {
+  color: rgb(132, 212, 255);
+}
+
+.back a {
+  text-decoration: none;
+  color: rgb(0, 166, 255);
+}
+
+.back a:hover {
+  color: rgb(132, 212, 255);
+}
+
+.newPostButton {
+  color: #019191;
+}
+
+.newPostButton:hover {
+  color: #00d9d9;
+}
+
+.pageNumbers p {
+  color: #73000D;
+  font-size: 120%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.pageNumbers a{
+  text-decoration: none;
+  color: #007366;
+}
+
+.pageNumbers a:hover {
+  color: red;
+}
+
+.edit a {
+  text-decoration: none;
+  color: #019191;
+}
+
+.edit a:hover {
+  color: #00d9d9;
+}
+
+.scary {
+  color: red;
+}
+
+.scary a {
+  text-decoration: none;
+  color: red;
+}
+
+.scary a:hover {
+  cursor: pointer;
+  color: rgb(255, 121, 121);
+}
+
+.fullScreenModal {
+  display: flex;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  background-color: #fff9e6;
+  width: 100%;
+  height: 100%;
+/*   justify-content: center;
+  align-items: center; */
+}
+
+.deleteBox {
+/*   margin: 0; */
+/*   padding: 0; */
+  margin-left: 8px;
+}
+
+/* .deleteBox {
+  width: 100%;
+  height: 100%;
+  background-color: #fff9e6;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+} */
+
+.container {
+  position: fixed;
+/*   /* top: 100%; */
+/*   left: 0; */
+/*   right: 0; */
+/*   bottom: 0; */
+/*   bottom: 10px;
+  left: 10px; */
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fade-out 4s forwards;
+}
+
+.box {
+  background-color: #fbfeff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.message {
+  margin: 0;
+  font-size: 120%;
+  user-select: none;
+}
+
+.close {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: #bbb;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .textarea {
+    width: 98%;
+  }
+}

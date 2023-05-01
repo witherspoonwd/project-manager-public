@@ -1,0 +1,53 @@
+.title {
+  color: white;
+}
+
+.backButton {
+  text-decoration: none;
+  color: #ff8c8c;
+}
+
+.backButton:hover {
+  color: #9d5757;
+}
+
+.newButton {
+  text-decoration: none;
+  color: #a38cff;
+}
+
+.newButton:hover {
+  color: rgb(90, 111, 163);
+}
+
+.tableItem {
+  text-decoration: none;
+  color: #8ae38d;
+}
+
+.tableItem:hover {
+  color: #64a066;
+}
+
+.contentTable {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.contentTable tr {
+margin-left: 0;
+padding-left: 0;
+}
+
+.contentTable table {
+  border-collapse: separate;
+  border-spacing: 10px 0;
+  margin-left: 0;
+}
+
+.contentTable td {
+  text-align: left;
+  font-size: 130%;
+  font-style: normal;
+  font-weight: normal;
+}

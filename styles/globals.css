@@ -1,0 +1,99 @@
+html {
+  font-size: 100%;
+}
+
+p, a, h1, h2, h3, pre, ul, ol, li, td, tr, table, label, form, textarea, body, input {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p, li, pre, label {
+  font-size: 120%;
+}
+
+textarea, input {
+  font-size: 110%;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+tbody {
+  margin: 0; 
+  padding: 0;
+}
+
+.body-index {
+  background-color: #6caee4;
+}
+
+.body-links {
+  background-color: #972c2c;
+}
+
+.body-microblog {
+  background-color: #fff9e6;
+}
+
+.body-songs {
+  background-color: #5a78a7;
+}
+
+.body-notepad {
+  background-color: #edf4ff;
+}
+
+.body-sketchbook {
+  background-color: #e2ded2;
+}
+
+.body-sketch {
+  background-color: #e2ded2;
+  text-align: center;
+}
+
+.body-schedule {
+  background-color: #fff1c7;
+}
+
+.body-projects {
+  background-color: rgb(222, 232, 240);
+  margin: 0;
+}
+
+.body-logon {
+  background-color: #243570;
+}
+
+.body-404 {
+  height: 100vh; overflow: hidden;
+
+  background-image: url('/404.png');
+
+  animation: scrollBg 1000s linear infinite;
+
+  image-rendering: pixelated;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes scrollBg {
+  from {
+    background-position: 25px 25px;
+  }
+  to {
+    background-position: -20000px 41200px;
+  }
+}
+
+
+@media only screen and (max-width: 430px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+

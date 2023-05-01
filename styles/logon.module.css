@@ -1,0 +1,12 @@
+.input {
+  background-color: #ffffff;
+}
+
+.errormessage {
+  padding: 0;
+  display: inline-block;
+  background-color: black;
+  border-style: solid;
+  border-color: silver;
+  border-width: 2px;
+}

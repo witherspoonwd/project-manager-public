@@ -1,0 +1,230 @@
+.textarea, .input {
+  background-color: #cbdae8;
+}
+
+.updateDate {
+  color: lime;
+}
+
+.postText, .pre {
+  color: white;
+}
+
+.titleButton a {
+  text-decoration: none;
+  color: #b99e5f;
+}
+
+.titleButton a:hover {
+  color: #ffb855;
+}
+
+.switchPressed {
+  color: #ffb855;
+}
+
+.previousUpdates {
+  color: purple;
+}
+
+#originalDate {
+  color: blue;
+}
+
+.recentlyUpdated {
+  color: rgb(86, 223, 86);
+}
+
+.newPostButton {
+  color: #f38bc4;
+}
+
+.newPostButton:hover {
+  color: #ffa6d7;
+}
+
+.backButton:hover {
+  color: rgb(255, 210, 217);
+}
+
+.backButton {
+  text-decoration: none;
+  color: rgb(255, 174, 188);
+}
+
+.songComplete {
+  color: rgb(26, 160, 26);
+}
+
+.tableRow td {
+  color: white;
+}
+
+.tableRow a {
+  text-decoration: none;
+}
+
+.link, .tableRow td a , .postText a, .pre a {
+  color: #edaeff;
+}
+
+.link:hover, .tableRow a:hover, .postText a:hover, .pre a:hover  {
+  color: #e484ff;
+}
+
+a.menuButton {
+  text-decoration: none;
+  color: #ffff00;
+}
+
+.pageNumbers p {
+  color: #b9b684;
+  font-size: 120%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.pageNumbers a{
+  text-decoration: none;
+  color: #fff99e;
+}
+
+.pageNumbers a:hover {
+  color: #ffa600;
+}
+
+.edit a {
+  text-decoration: none;
+  color: #57d370;
+}
+
+.edit a:hover {
+  color: #aaffbb;
+}
+
+.scary {
+  color: rgb(212, 3, 3);
+}
+
+.scary a {
+  text-decoration: none;
+  color: rgb(238, 122, 122);
+}
+
+.scary a:hover {
+  cursor: pointer;
+  color: rgb(250, 187, 187);
+}
+
+.back a {
+  text-decoration: none;
+  color: rgb(242, 122, 255);
+}
+
+.back a:hover {
+  color: rgb(248, 187, 255);
+}
+
+.formBody label {
+  color: white;
+}
+
+.fullScreenModal {
+  display: flex;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  background-color: #5a78a7;
+  width: 100%;
+  height: 100%;
+/*   justify-content: center;
+  align-items: center; */
+  z-index: 9999;
+}
+
+.deleteBox {
+/*   margin: 0; */
+/*   padding: 0; */
+  margin-left: 8px;
+}
+
+.deleteBox p {
+  color: white;
+}
+
+/* .deleteBox {
+  width: 100%;
+  height: 100%;
+  background-color: #fff9e6;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+} */
+
+.container {
+  position: fixed;
+/*   /* top: 100%; */
+/*   left: 0; */
+/*   right: 0; */
+/*   bottom: 0; */
+/*   bottom: 10px;
+  left: 10px; */
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fade-out 4s forwards;
+}
+
+.box {
+  background-color: #a6c2ee;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.message {
+  margin: 0;
+  font-size: 120%;
+  user-select: none;
+}
+
+.close {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: #bbb;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .textarea {
+    width: 98%;
+  }
+}

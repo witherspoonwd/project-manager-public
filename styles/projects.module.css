@@ -1,0 +1,303 @@
+.td {
+  padding-right: 1.5vh;
+  padding-bottom: 0.3vh;
+  padding-top: 0.3vh;
+}
+
+.panel {
+  background-color: rgb(203, 212, 219);
+  border-radius: 5px;
+  margin: 0.8vh;
+
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  
+}
+
+.editableTextbox {
+  background-color: rgb(215, 224, 232);
+}
+
+.topPanel {
+  margin-top: 0.8vh;
+}
+
+.textBoxSpacing {
+  margin: 8px;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  /* background-color: aqua; */
+  width: 1400px;
+}
+
+.infoSection {
+  /* background-color: red; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* margin: 8px; */
+
+  width: 100%;
+}
+
+.infoItem {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.infoContent, .infoTitle {
+  margin-left: 8px; 
+  padding-left: 4px; 
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+}
+
+.infoTitle {
+  background-color: rgb(180, 192, 202);
+  width: 35%;
+}
+
+.infoEditBox {
+  resize: none;
+  font-size: 100%;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #dce7f0;
+  margin-left: 8px; 
+  padding-left: 4px; 
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+}
+
+.infoEditSelector {
+  /* color: #dce7f0; */
+  width: 42%;
+  /* width: 200px; */
+  height: 25px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+
+.descBox {
+  /* background-color: red; */
+  white-space: pre;
+}
+
+.descEditBox {
+  font-size: 100%;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #dce7f0;
+
+  /* width: 100%;
+  height: 100%; */
+  /* resize: none; */
+
+  overflow: hidden;
+  box-sizing: border-box;
+
+  resize: none;
+
+  margin: 8px;
+  width: 98%;
+  max-width: 98%;
+  min-width: 98%;
+
+  white-space: pre;
+}
+
+.dateTimeBox {
+  width: 40.5%;
+}
+
+/* .infoEditBox, .dateTimeBox {
+  width: 100%;
+} */
+
+.moduleSection {
+  width: 30%;
+}
+
+.sectionHeader {
+  font-size: 17px;
+  font-weight: 525;
+
+  justify-content: center;
+  text-align: center;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  justify-content: right;
+}
+
+.button {
+  background-color:rgb(180, 192, 202);
+  margin: 8px;
+  margin-right: 0;
+  padding: 5px;
+  border-radius: 5px;
+  user-select: none;
+
+  align-items: center;
+}
+
+.floatButton {
+  justify-content: center;
+}
+
+.button:hover {
+  background-color:rgb(159, 170, 180);
+  cursor: pointer;
+}
+
+.button:active {
+  background-color:rgb(240, 248, 255);
+}
+
+.buttonHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* COLORS: */
+
+.warningColor {
+  color: rgb(255, 102, 0);
+}
+
+.scaryColor {
+  color: red;
+}
+
+.scary a {
+  color: red;
+  text-decoration: none;
+}
+
+.scary a:hover {
+  color: rgb(255, 89, 89);
+}
+
+.scaryLink {
+  cursor: pointer;
+}
+
+.outlink {
+  color: rgb(43, 94, 197);
+  text-decoration: none;
+}
+
+.outlink:hover {
+  color: rgb(88, 138, 238);
+}
+
+.miniButton {
+  margin-left: 8px;
+  font-size: 15px;
+  color: rgb(95, 95, 95);
+  user-select: none;
+}
+
+.miniButton:hover {
+  color: rgb(149, 148, 148);
+  cursor: pointer;
+}
+
+.miniButton:active {
+  color: white;
+}
+
+.noteHeader {
+  display: flex;  
+  justify-content: space-between;
+}
+
+.noteHours {
+  margin-left: 8px;
+}
+
+.noteContent {
+  white-space: pre ; 
+  display: block; 
+  unicode-bidi: embed
+}
+
+.moduleTitle, .headerFont {
+  font-size: 17px;
+}
+
+.colorObjectHeader {
+  margin-left: 8px;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+}
+
+.colorObject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+
+  margin: 8px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  padding-top: 0px;
+}
+
+/*input[type="color"] {
+	width: 17px;
+	height: 17px;
+}
+ input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+} */
+
+.colorTitle {
+  padding-left: 8px;
+  font-size: 15px;
+}
+
+.colorSelectorPanel {
+  margin-left: 8px;
+}
+
+.colorSelectorTitle {
+  text-decoration: underline;
+}
+
+.colorObjectHolder {
+  margin-bottom: 8px;
+}
+
