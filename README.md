@@ -77,7 +77,7 @@ A simple page to store bookmarks.
 
 Clone this repository into a directory and execute "init_database.sql" in the MySQL directory.
 
-Afterwards, local environment variables will need to be populated in the following format for MySQL2 to connect to the database.
+Afterwards, local environment variables will need to be populated in the following format into ".env.local" so mysql2 can connect to the database.
 
 ```
 SQL_HOST=
