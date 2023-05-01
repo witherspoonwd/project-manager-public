@@ -9,7 +9,7 @@ Projects, Microblog, and Links. While the Projects and Schedule section is meant
 sections are used as custom repositories of ideas and thoughts that can be accessed anywhere in a private manner.
 
 This tool was originally coded raw in PHP but it is currently in the process of being ported to a NodeJS environment based on Next.js with React.js.
-The project is being ported to a NodeJS environment with Next.js and React.js as part of an effort to learn and apply more modern web development frameworks.
+The project is being ported as part of an effort to learn and apply more modern web development frameworks.
 *Bearing this in mind*, there are a few aspects of the code presented that I have realized are not ideal, such as defining too many components in a single page
 or repeating similar components in the various pages that could be combined in other ways. However, code is currently in the process of being rewritten
 to be up to production standards.
