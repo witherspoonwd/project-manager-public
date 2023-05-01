@@ -85,7 +85,7 @@ Afterwards, local environment variables will need to be populated in the followi
 
 ```
 SQL_HOST=
-SQL_DB=
+SQL_DB=wwnet
 SQL_USR=
 SQL_PASS=
 SQL_SOCK=
