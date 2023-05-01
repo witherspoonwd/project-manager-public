@@ -14,6 +14,8 @@ The project is being ported to a NodeJS environment with Next.js and React.js as
 or repeating similar components in the various pages that could be combined in other ways. However, code is currently in the process of being rewritten
 to be up to production standards.
 
+This project manager is designed to be used by a single individual and hosted privately. To ensure the privacy of the content, authentication and login functionality will be implemented in the near future.
+
 ### Working Features
 
 - Songs
@@ -57,6 +59,8 @@ Page for managing tasks that need to completed with timekeeping features such as
 ### Projects
 
 Based off of standard IT ticketing software, the Projects page is intended to be the ultimate tracker of tasks and aspects of managing a project. Including a note system, integration with the Schedule page, and modules that are specific to the various types of projects I work on, the Projects page is intended to be my main way to manage my personal tasks.
+
+The Projects page was not included in the original version of the project manager, and it is currently broken due to an API error. However, the current code is still viewable and was at one point functional.
 
 ### Microblog
 
